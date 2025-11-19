@@ -57,15 +57,6 @@ These results illustrate how different exposure rules influence stability and ov
 
 ---
 
-## Project Structure
-
-main.py # Backtest loop, data processing, and visualization
-Strategy_Entry.py # Instant-trend calculations and signal logic
-Strategy_Risk.py # Volatility sizing, RSI aggregation, drawdown regime model
-BTC-1m.csv # OHLC data (not included)
-
----
-
 ## Tools and Libraries
 
 - Python  
