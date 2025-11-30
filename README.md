@@ -69,19 +69,6 @@ These results illustrate how different exposure rules influence stability and ov
 
 ---
 
-## Key Objectives
-
-- Implement custom technical indicators  
-- Test simple signal logic on high-frequency data  
-- Explore volatility-based and drawdown-based risk adjustments  
-- Visualize price, signals, trends, and performance curves  
-- Maintain clear separation between strategy logic and execution  
-- Examine how risk controls influence equity curve behavior  
-
-The project emphasizes experimentation and software structure rather than producing a profitable trading strategy.
-
----
-
 ## Future Extensions
 
 - Add transaction costs and slippage  
