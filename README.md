@@ -6,7 +6,7 @@ A lightweight Python backtesting engine designed to explore trend-following sign
 
 ## Technical Structure
 
-backtesting-engine/
+backtesting-engine/\n
 ├── config/                 
 │   ├── config.json         
 │   └── config.py           
@@ -21,22 +21,22 @@ backtesting-engine/
 └── README.md               
 
 
-**main**
+**main**\n
 The entry point of the application. It orchestrates the backtesting pipeline by initializing the data loader, injecting configuration parameters, and executing the simulation loop that binds signals to the risk engine.
 
-**signal**
+**signal**\n
 Encapsulates the core trading logic. It handles the generation of raw directional signals (Long/Short/Neutral) based on trend-following algorithms (e.g., Fast/Slow Moving Average crossovers) independent of position sizing.
 
-**risk**
+**risk**\n
 Implements the risk management overlay. This module dynamically calculates position sizing.
 
-**performance**
+**performance**\n
 The analytics engine. It computes key performance metrics (Cumulative Return, Drawdown depths) and utilizes Matplotlib to render diagnostic visualizations, including equity curves and regime-change markers.
 
-**exchange**
+**exchange**\n
 Handles data ingestion and order simulation. It simulates the execution of trade orders against historical price action under fees and slippage.
 
-**config**
+**config**\n
 Separates code from configuration. Contains JSON-based parameters for strategy sensitivity (e.g., lookback periods, risk thresholds, ...), allowing for rapid experimentation without modifying the codebase.
 
 ---
