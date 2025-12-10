@@ -57,8 +57,6 @@ This plot is used to verify whether the indicator and signal logic behave as int
 
 ![Price Timeseries](visuals/Timeseries.png)
 
----
-
 ### Risk Management  
 
 **Volatility-Based Position Sizing**  
@@ -69,8 +67,6 @@ Higher volatility results in smaller exposures; lower volatility allows larger e
 Cumulative returns are used to calculate drawdowns.  
 When drawdowns exceed a defined threshold, the system shifts to a reduced-exposure regime.  
 A polynomial fit is applied to recent drawdown values to estimate the slope of the drawdown period.
-
----
 
 ### Performance  
 Two cumulative return curves are generated for comparison:
