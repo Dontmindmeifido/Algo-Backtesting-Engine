@@ -41,9 +41,9 @@ Separates code from configuration. Contains JSON-based parameters for strategy s
 
 ---
 
-## Performance Results for Naive Strategy
+## Performance Results for Naive Strategy  
 
-**Signal Generation**
+### Signal Generation   
 
 Signals are produced using two instant-trend moving averages with different speeds.  
 A long or short signal is issued when the fast trend crosses the slow trend.
@@ -59,20 +59,20 @@ This plot is used to verify whether the indicator and signal logic behave as int
 
 ---
 
-**Risk Management**
+### Risk Management  
 
-### Volatility-Based Position Sizing  
+**Volatility-Based Position Sizing**  
 Position size is determined using a rolling volatility estimate derived from log returns.  
 Higher volatility results in smaller exposures; lower volatility allows larger exposures.
 
-### Drawdown-Based Exposure Adjustment  
+**Drawdown-Based Exposure Adjustment**  
 Cumulative returns are used to calculate drawdowns.  
 When drawdowns exceed a defined threshold, the system shifts to a reduced-exposure regime.  
 A polynomial fit is applied to recent drawdown values to estimate the slope of the drawdown period.
 
 ---
 
-**Performance**
+### Performance  
 Two cumulative return curves are generated for comparison:
 
 1. **Simple Strategy (volatility sizing only)**  
