@@ -98,6 +98,7 @@ These results (over a period of 7 years) illustrate how different exposure rules
 - Matplotlib  
 - Json
 
+
 - Standard time-series statistical methods
 
 ---
