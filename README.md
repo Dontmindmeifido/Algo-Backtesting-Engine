@@ -55,7 +55,7 @@ The signal visualization includes:
 
 This plot is used to verify whether the indicator and signal logic behave as intended.
 
-![Price Timeseries](Visuals/Timeseries.png)
+![Price Timeseries](visuals/Timeseries.png)
 
 ---
 
@@ -83,7 +83,7 @@ Two cumulative return curves are generated for comparison:
    Exposure directly proportional to current drawdown.  
    In this configuration, the adjustment lowers overall performance and results in a more conservative equity curve, which was to be expected.
 
-![Equity Curves](Visuals/Strategies_Return.png)
+![Equity Curves](visuals/Strategies_Return.png)
 
 These results (over a period of 7 years) illustrate how different exposure rules influence stability and overall performance, even when they reduce returns.
 
@@ -94,9 +94,9 @@ These results (over a period of 7 years) illustrate how different exposure rules
 - Python  
 - Pandas  
 - NumPy  
-- Matplotlib  
 - Ta
-- Numpy 
+- Matplotlib  
+- Json
 
 - Standard time-series statistical methods
 
